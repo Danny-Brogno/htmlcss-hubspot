@@ -20,7 +20,7 @@
   margin: 0 auto;
 }
 
-.gray-container::after{
+.gray-container::after {
   content: "";
   display: table;
   clear: both;
@@ -113,4 +113,10 @@ a > .element-right,i {
 
 .floating {
   float: right;
+}
+
+.floating::after {
+  content: "";
+  display: table;
+  clear: both;
 }
