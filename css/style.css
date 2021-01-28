@@ -8,19 +8,16 @@
 
 /* header part 1*/
 
-.contenitore {
+.contenitore1 {
   background-color: #f4f9fd;
   width: 100vw;
   height: 20vh;
-  top: 0px;
+  border-bottom: 1px solid red;
 }
 
 .gray-container {
   width: 80%;
   margin: 0 auto;
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .gray-container::after{
@@ -35,8 +32,8 @@
 }
 
 .left-menu {
-  display: inline-block;
-  margin: 20px 15px 0px 15px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   list-style-type:none;
 }
 
@@ -67,5 +64,53 @@
 
 .right-menu{
   float: right;
+  padding: 0px 0px 0px 0px;
+}
 
+/* header part 3 */
+
+.contenitore2 {
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 20vh;
+}
+
+.white-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo-links {
+  list-style-type:none;
+  padding: 0px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+#logo-links li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a > .element-right,i {
+  display: inline;
+}
+
+.right-links li {
+  font-size: small;
+}
+
+.right-links a {
+  color: #32495b;
+}
+
+.right-links a:link {
+  text-decoration: none;
+}
+
+.right-links a:visited {
+  text-decoration: none;
+}
+
+.floating {
+  float: right;
 }
