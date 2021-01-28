@@ -18,67 +18,54 @@
 .gray-container {
   width: 80%;
   margin: 0 auto;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.language-selection {
+.gray-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu {
   display: inline-block;
-  margin: 20px 15px 0px 15px;
-  padding: 0px 30px 0px 0px;
-  border-right: 2px solid #899397;
   list-style-type:none;
 }
 
-.language-selection ul  {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.language-selection li {
-  display: inline;
-  font-size: small;
-}
-
-.language-selection a {
-  color: #32495b;
-}
-
-.language-selection a:link {
-  text-decoration: none;
-}
-
-.language-selection a:visited {
-  text-decoration: none;
-}
-
-.contact {
+.left-menu {
   display: inline-block;
   margin: 20px 15px 0px 15px;
-  padding: 0px 30px 0px 0px;
-  border-right: 2px solid #899397;
   list-style-type:none;
 }
 
-.contact ul  {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.border-right {
+  padding: 0px 30px 0px 0px;
+  border-right: 2px solid #899397;
 }
 
-.contact li {
+.menu li {
   display: inline;
   font-size: small;
+  margin-right: 30px;
 }
 
-.contact a {
+.menu a {
   color: #32495b;
 }
 
-.contact a:link {
+.menu a:link {
   text-decoration: none;
 }
 
-.contact a:visited {
+.menu a:visited {
   text-decoration: none;
 }
+
 /* header part 2 */
+
+.right-menu{
+  float: right;
+
+}
