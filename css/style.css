@@ -1,0 +1,38 @@
+/* rules for the whole page */
+
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* header part 1*/
+
+.contenitore {
+  background-color: #f4f9fd;
+  width: 100vw;
+  height: 20vh;
+  top: 0px;
+}
+
+.gray-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#language-selection {
+  display: inline-block;
+  margin: 20px 15px 0px 15px;
+  padding: 0px 30px 0px 0px;
+  border-right: 2px solid #899397;
+}
+
+/* header part 2 */
+
+
+
+#line {
+  height: 1px;
+  background-color: #32495b;
+  border: none;
+}
