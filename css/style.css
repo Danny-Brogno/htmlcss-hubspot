@@ -8,10 +8,15 @@
 
 /* header part 1*/
 
+header {
+  padding-top: 301px;
+  /* (container 1 is 150px in height and 1 px of border, container2 has 150 px of height. TOTAL: 301px)*/
+}
+
 .contenitore1 {
   background-color: #f4f9fd;
   width: 100vw;
-  height: 20vh;
+  height: 150px;;
   border-bottom: 1px solid #32495b;
 }
 
@@ -90,7 +95,7 @@
 .contenitore2 {
   background-color: #FFFFFF;
   width: 100vw;
-  height: 20vh;
+  height: 150px;
 }
 
 .white-container {
@@ -101,7 +106,7 @@
 #logo-links {
   list-style-type:none;
   padding: 0px 0px 0px 0px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 #logo-links li {
@@ -139,26 +144,80 @@ a > .element-right,i {
   clear: both;
 }
 
-/* .bothlines {
+.bothlines {
   position: fixed;
-} */
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
 
 /* coloured background section of header */
 
 .jumbotron {
-  margin: 0 auto;
-  width: 100vw;
+  width: 100%;
   height: 700px;
   background-image: url(../img/jumbotron.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 2px solid #33475b;
+  z-index: 100;
 }
+
 
 #greenline {
   width: 100vw;
   height: 20vh;
   background-color: #afebe4;
   border-bottom: 2px solid #33475b;
+}
+
+.contenitore3 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contenitore3 > h1 {
+  padding-top: 50px;
+  font-size: 70px;
+  color: black;
+}
+
+.headtext {
+  position: relative;
+  top: 30px;
+  line-height: 1.6;
+  font-size: large;
+}
+
+.orangelink {
+  position: relative;
+  top: 60px;
+  right: 40px;
+  list-style-type:none;
+}
+
+.orange3 {
+  width: 250px;
+  height: 80px;
+  background-color: #fe775a;
+  border: 1px solid transparent;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-size: 100%;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.orange3 a:link {
+  text-decoration: none;
+}
+
+.orange3 a:visited {
+  text-decoration: none;
+}
+
+.undertext {
+  position: relative;
+  top: 100px;
 }
