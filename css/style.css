@@ -221,45 +221,95 @@ a > .element-right,i {
   border-bottom: 2px solid #33475b;
 }
 
-/* Cube section of main */
+/*main */
 
 .outer-container {
   width: 100vw;
   height: 2720px;
-  /* metti questo colore di back-ground #f4f9fd; */
-  /* debug */
-  background-color:red;
+  background-color: #f4f9fd;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .inside-container {
   width: 80%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
+
+/* Cube section of main */
 
 .cube-sector {
   width: 100%;
-  height: 800px;
-  /* debug */
-  background-color: yellow;
+  height: 600px;
+  padding: 20px 0px 0px 0px;
+  background-color: #f4f9fd;
   z-index: 2;
 }
+
+.pic-cube {
+  background-image: url(../img/cube.png);
+  width: 526px;
+  height: 394px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cube-sector > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: black;
+}
+
+.cube-sector > .textheads {
+  text-align: center;
+  line-height: 200%;
+}
+
+/* Other image under cube */
 
 .free-hubspot {
   width: 100%;
   height: 800px;
-  /* debug */
-  background-color: green;
+  background-color: #FFFFFF;
   z-index: 2;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+
+.free-hubspot::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .image-book {
+  background-image: url(../img/book.svg);
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  border-radius: 30px;
+  z-index: 3;
   width: 30%;
   height: 100%;
-  /* debug */
-  background-color: orange;
-  z-index: 3;
   float: left;
+}
+
+.orangelink2 {
+  list-style-type:none;
+  position: relative;
+  top: 80%;
+  left: 20%
+}
+
+/* text on the side of the image (book) */
+
+.line-with-text {
+  width: 100%;
+  padding-top: 100px;
 }
 
 .rows {
@@ -269,6 +319,12 @@ a > .element-right,i {
   /* debug */
   background-color: blue;
 }
+
+/* .rows::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
 
 .row-left {
   width: 30%;
