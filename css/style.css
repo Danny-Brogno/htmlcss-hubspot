@@ -164,14 +164,6 @@ a > .element-right,i {
   z-index: 100;
 }
 
-
-#greenline {
-  width: 100vw;
-  height: 20vh;
-  background-color: #afebe4;
-  border-bottom: 2px solid #33475b;
-}
-
 .contenitore3 {
   width: 80%;
   margin: 0 auto;
@@ -220,4 +212,94 @@ a > .element-right,i {
 .undertext {
   position: relative;
   top: 100px;
+}
+
+#greenline {
+  width: 100vw;
+  height: 20vh;
+  background-color: #afebe4;
+  border-bottom: 2px solid #33475b;
+}
+
+/* Cube section of main */
+
+.outer-container {
+  width: 100vw;
+  height: 2720px;
+  /* metti questo colore di back-ground #f4f9fd; */
+  /* debug */
+  background-color:red;
+  z-index: 1;
+}
+
+.inside-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cube-sector {
+  width: 100%;
+  height: 800px;
+  /* debug */
+  background-color: yellow;
+  z-index: 2;
+}
+
+.free-hubspot {
+  width: 100%;
+  height: 800px;
+  /* debug */
+  background-color: green;
+  z-index: 2;
+}
+
+.image-book {
+  width: 30%;
+  height: 100%;
+  /* debug */
+  background-color: orange;
+  z-index: 3;
+  float: left;
+}
+
+.rows {
+  width: 100%;
+  height: 1000px;
+  margin-top: 50px;
+  /* debug */
+  background-color: blue;
+}
+
+.row-left {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-right: 5%;
+  /* debug */
+  background-color: black;
+  z-index: 2;
+}
+/* debug */
+.row-left > h1 {
+  /* debug */
+  color: white;
+}
+
+.row-middle {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-right: 5%;
+  /* debug */
+  background-color: white;
+  z-index: 2;
+}
+
+.row-right {
+  width: 30%;
+  height: 100%;
+  float: right;
+  /* debug */
+  background-color: lime;
+  z-index: 2;
 }
