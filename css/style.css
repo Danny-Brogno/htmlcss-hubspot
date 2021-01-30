@@ -300,7 +300,7 @@ a > .element-right,i {
   list-style-type:none;
   position: relative;
   top: 80%;
-  left: 20%;
+  left: 12%;
 }
 
 /* text on the side of the image (book) */
@@ -329,26 +329,51 @@ a > .element-right,i {
 }
 
 .horizontal-rule {
-  border-top: 6px solid #899397;
-  width: 700px;
+  border-top: 2px solid #899397;
+  width: 430px;
   margin: -30px 0px 0px 1000px;
 }
 
+/* these are the check-boxes */
+
+.far {
+  background-color: #fe775a;
+  color: #FFFFFF;
+  border-radius: 40px;
+}
+
+.underline-checkboxes {
+  padding-top: 100px;
+  font-weight: lighter;
+}
+
+.underline-checkbox, span {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 /* new section (rows) */
-.rows {
+
+#bigger-container {
   width: 100%;
-  height: 1000px;
-  margin-top: 50px;
-  /* debug */
-  background-color: blue;
-  padding-bottom: 50px;
+  background-color: #f4f9fd;
 }
 
 .row-section {
   width: 80%;
   margin: 0 auto;
   box-sizing: border-box;
-  /* background-color: #f4f9fd; */
+  background-color: #f4f9fd;
+  z-index: 1;
+}
+
+.rows {
+  width: 100%;
+  height: 1500px;
+  padding-top: 50px;
+  /* debug */
+  padding-bottom: 50px;
+  z-index: 1;
 }
 
 .rows::after {
@@ -362,14 +387,30 @@ a > .element-right,i {
   height: 100%;
   float: left;
   margin-right: 5%;
-  /* debug */
-  background-color: black;
+  background-color: #FFFFFF;
+  border-radius: 20px;
   z-index: 2;
 }
-/* debug */
-.row-left > h1 {
-  /* debug */
-  color: white;
+
+/* this makes the inside of the container smaller */
+
+.sub-division-row {
+  width: 60%;
+}
+
+/* same class given to multiple tags */
+
+.snapshot {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* but individual pictures added (see above)*/
+
+.marketing {
+  background-image: url(../img/marketing.svg);
 }
 
 .row-middle {
@@ -377,16 +418,56 @@ a > .element-right,i {
   height: 100%;
   float: left;
   margin-right: 5%;
-  /* debug */
-  background-color: white;
+  background-color: #FFFFFF;
+  border-radius: 20px;
   z-index: 2;
+}
+
+.sales {
+  background-image: url(../img/sales.svg);
 }
 
 .row-right {
   width: 30%;
   height: 100%;
   float: right;
-  /* debug */
-  background-color: lime;
+  background-color: #FFFFFF;
+  border-radius: 20px;
   z-index: 2;
+}
+
+.service {
+  background-image: url(../img/service.svg);
+}
+
+/* these are the rules for the text IN teh 3 rows */
+
+.sub-division-row .title-in-row {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.sub-division-row .paragraph-in-row {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  line-height: 1.6;
+  border-bottom: 2px solid #899397;
+}
+
+.sub-division-row h2 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.checkboxes-in-block {
+  padding-bottom: 100px;
+  line-height: 20%;
+}
+
+.orange-link4 {
+  list-style-type:none;
 }
