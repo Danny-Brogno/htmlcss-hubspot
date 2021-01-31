@@ -509,7 +509,7 @@ height: 150px;
   padding-top: 30px;
 }
 
-/* start of squares */
+/* first line of squares */
 
 /* (1) */
 
@@ -562,10 +562,12 @@ height: 150px;
 .seccion2 {
   font-size: 30px;
   padding-bottom: 20px;
+  font-weight: bolder;
 }
 
 .seccion3 {
   padding-top: 10px;
+  font-weight: 100;
 }
 
 /* (2) */
@@ -591,10 +593,12 @@ height: 150px;
 .sez2 {
   font-size: 30px;
   padding-bottom: 20px;
+  font-weight: bolder;
 }
 
 .sez3 {
   padding-top: 13px;
+  font-weight: 100;
 }
 /* negative margin to make the icon move left */
 
@@ -633,10 +637,12 @@ height: 150px;
 .micro2 {
   font-size: 30px;
   padding-bottom: 20px;
+  font-weight: bolder;
 }
 
 .micro3 {
   padding-top: 20px;
+  font-weight: 100;
 }
 
 /* negative vaule for the margin to make the hat go left */
@@ -669,19 +675,25 @@ height: 150px;
 .pequeno2 {
   font-size: 30px;
   padding-bottom: 20px;
+  font-weight: bolder;
 }
 
 .pequeno3 {
   padding-top: 20px;
+  font-weight: 100;
 }
 
 /* negative values to make the "O" get closer to its sides */
 
 h3 .fab.fa-opera {
-  margin: 0px -25px 0px -25px;
+  margin: 0px -30px 0px -30px;
 }
 
-/* Second line starts here */
+/* second lien of squares */
+
+.linea-inferior {
+  font-family: cursive;
+}
 
 /* (5) */
 
@@ -689,30 +701,147 @@ h3 .fab.fa-opera {
   width: 25%;
   height: 250px;
   float: left;
-  /* debug */
-  background-color: gold;
+  border-right: 1px solid #FFFFFF;
 }
+
+.cinco {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.nanico1 {
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-weight: bolder;
+  line-height: 80%;
+}
+
+.nanico2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.nanico3 {
+  font-weight: 100;
+}
+
+.nanico1 span {
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+/* (6) */
 
 .cubo6 {
   width: 25%;
   height: 250px;
   float: left;
-  /* debug */
-  background-color: darkgreen;
+  border-right: 1px solid #FFFFFF;
 }
+
+.seis {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.exiguo1 {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.exiguo2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.exiguo3 {
+  font-weight: 100;
+}
+
+.exiguo1:first-child {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+/* (7) */
 
 .cubo7 {
   width: 25%;
   height: 250px;
   float: left;
-  /* debug */
-  background-color: Aqua;
+  border-right: 1px solid #FFFFFF;
 }
+
+.siete {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.limitado1 {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.limitado2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.limitado3 {
+  font-weight: 100;
+}
+
+.limitado1:first-child {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+/* (8) */
 
 .cubo8 {
   width: 25%;
   height: 250px;
   float: right;
-  /* debug */
-  background-color: Crimson;
+}
+
+.ocho {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.atenerse1 {
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.atenerse2 {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.atenerse3 {
+  padding-top: 10px;
+  font-weight: 100;
+}
+
+#hola {
+  font-size: 35px;
+  font-family: Impact;
+}
+
+#salud {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 100;
+  padding: 0px 0px 0px 0px;
 }
