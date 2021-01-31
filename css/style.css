@@ -565,9 +565,41 @@ height: 150px;
   width: 25%;
   height: 250px;
   float: left;
-  /* debug */
-  /* background-color: lime; */
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
+
+.secundo > p {
+  color: #FFFFFF;
+  margin-left: 20px;
+  font-size: 40px;
+  padding-top: 32px;
+  padding-bottom: 22px;
+}
+
+.secundo > div:first-of-type {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-top: 30px;
+  font-size: 30px;
+  margin-right: 5px
+}
+
+.secundo:last-child {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+}
+/* negative margin to make the icon move left */
+
+.fab.fa-hubspot {
+  margin-left: -10px;
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+/* (3) */
 
 .cubo3 {
   width: 25%;
