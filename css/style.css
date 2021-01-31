@@ -474,7 +474,7 @@ a > .element-right,i {
 
 .contenidor-externo {
   width: 100%;
-  height: 1000px;
+  height: 950px;
   background: linear-gradient(to right, #00a5bc, #00bda5);
 }
 
@@ -588,6 +588,12 @@ height: 150px;
 .sez1 {
   padding-top: 20px;
   padding-bottom: 25px;
+}
+
+.sez1 span {
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 .sez2 {
@@ -731,6 +737,7 @@ h3 .fab.fa-opera {
   color: #FFFFFF;
   font-weight: lighter;
   font-size: 15px;
+  font-family: sans-serif;
 }
 
 /* (6) */
@@ -844,4 +851,144 @@ h3 .fab.fa-opera {
   font-family: sans-serif;
   font-weight: 100;
   padding: 0px 0px 0px 0px;
+}
+
+/* end of second line of cubes */
+
+/* start of chinese section */
+
+.outer-chinese {
+  width: 100%;
+  height: 950px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* debug */
+  background-color: lightgrey;
+}
+
+.inside-chinese {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* debug */
+  background-color: royalblue;
+}
+
+.inside-chinese::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* top left box */
+
+.topleft-chinese1 {
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-right: 200px;
+  /* debug */
+  text-align: center;
+  background-color: red;
+}
+
+.topleft-chinese2 {
+  width: 100%;
+  height:30%;
+  /* debug */
+  text-align: center;
+  background-color: #0437F2;
+}
+
+.topleft-chinese3 {
+  width: 100%;
+  height: 70%;
+  /* debug */
+  text-align: center;
+  background-color: #770737;
+}
+
+/* top right long boxes */
+
+.topright-chinese1 {
+  width: 922px;
+  height: 200px;
+  float: left;
+  /* debug */
+  text-align: center;
+  background-color: yellow;
+}
+
+.topright-chinese2 {
+  width: 100%;
+  height: 50%;
+  float: left;
+  /* debug */
+  text-align: center;
+  background-color: #00A36C;
+}
+
+
+.topright-chinese3 {
+  width: 100%;
+  height: 50%;
+  float: left;
+  /* debug */
+  text-align: center;
+  background-color: gold;
+}
+
+/* bottom left boxes */
+
+.bottomleft-chinese1 {
+  width: 600px;
+  height: 550px;
+  float: left;
+  /* debug */
+  text-align: center;
+  background-color: #0FFF50;
+}
+
+.bottomleft-chinese2 {
+  width: 100%;
+  height: 30%;
+  /* debug */
+  text-align: center;
+  background-color: #097969;
+}
+
+.bottomleft-chinese3 {
+  width: 100%;
+  height: 30%;
+  /* debug */
+  text-align: center;
+  background-color: #800000;
+}
+
+.bottomleft-chinese4 {
+  width: 100%;
+  height: 30%;
+  /* debug */
+  text-align: center;
+  background-color: #E5E4E2;
+}
+
+.bottomleft-chinese5 {
+  width: 100%;
+  height: 10%;
+  /* debug */
+  text-align: center;
+  background-color: #0FFF50;
+}
+
+/* bottom right box */
+
+.bottomright-chinese2 {
+  width: 700px;
+  height: 650px;
+  float: right;
+  /* debug */
+  text-align: center;
+  background-color: #FA5F55;
 }
