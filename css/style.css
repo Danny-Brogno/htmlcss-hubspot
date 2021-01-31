@@ -863,16 +863,15 @@ h3 .fab.fa-opera {
   padding-top: 50px;
   padding-bottom: 50px;
   /* debug */
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 
 .inside-chinese {
   width: 80%;
   height: 100%;
   margin: 0 auto;
+  font-family: cursive;
   box-sizing: border-box;
-  /* debug */
-  background-color: royalblue;
 }
 
 .inside-chinese::after {
@@ -888,26 +887,31 @@ h3 .fab.fa-opera {
   height: 300px;
   float: left;
   margin-right: 200px;
-  /* debug */
-  text-align: center;
-  background-color: red;
 }
 
 .topleft-chinese2 {
   width: 100%;
   height:30%;
-  /* debug */
+  color: #33475b;
   text-align: center;
-  background-color: #0437F2;
+  color: #33475b;
 }
 
 .topleft-chinese3 {
   width: 100%;
   height: 70%;
-  /* debug */
+  line-height: 200%;
   text-align: center;
-  background-color: #770737;
+  color: #000000;
 }
+
+.topleft-chinese3 span {
+  margin-left: 5px;
+  font-weight: bolder;
+  color: #000000;
+  padding: 0px 12px 0px 0px;
+}
+
 
 /* top right long boxes */
 
@@ -915,27 +919,26 @@ h3 .fab.fa-opera {
   width: 922px;
   height: 200px;
   float: left;
-  /* debug */
-  text-align: center;
-  background-color: yellow;
 }
 
 .topright-chinese2 {
   width: 100%;
   height: 50%;
   float: left;
-  /* debug */
   text-align: center;
   background-color: #00A36C;
 }
 
+.topleft-chinese2 h1 {
+  font-size: 60px;
+}
 
 .topright-chinese3 {
   width: 100%;
   height: 50%;
   float: left;
-  /* debug */
   text-align: center;
+  /* debug */
   background-color: gold;
 }
 
@@ -945,17 +948,18 @@ h3 .fab.fa-opera {
   width: 600px;
   height: 550px;
   float: left;
-  /* debug */
   text-align: center;
-  background-color: #0FFF50;
 }
 
 .bottomleft-chinese2 {
   width: 100%;
   height: 30%;
-  /* debug */
   text-align: center;
-  background-color: #097969;
+}
+
+.bottomleft-chinese2:first-child {
+  font-size: 25px;
+  color: #33475b;
 }
 
 .bottomleft-chinese3 {
@@ -984,11 +988,12 @@ h3 .fab.fa-opera {
 
 /* bottom right box */
 
-.bottomright-chinese2 {
+.bottomright-chinese1 {
   width: 700px;
   height: 650px;
   float: right;
-  /* debug */
-  text-align: center;
-  background-color: #FA5F55;
+  background-image: url(../img/woman.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
 }
