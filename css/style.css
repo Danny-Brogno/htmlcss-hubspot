@@ -524,10 +524,18 @@ height: 150px;
   clear: both;
 }
 
+/* this is not the correct font */
+
+.linea-superior {
+  font-family: cursive;
+}
+
 .sottosezione{
   width: 60%;
   box-sizing: border-box;
 }
+
+/* (1) */
 
 .cubo1 {
   width: 25%;
@@ -537,26 +545,27 @@ height: 150px;
   border-bottom: 1px solid #FFFFFF;
 }
 
-.far.fa-handshake {
+.primero {
   color: #FFFFFF;
-  font-size: 60px;
-  display: block;
-  margin-left: 75px;
-  margin-top: 20px;
-}
-
-.primero > p {
-  color: #FFFFFF;
-  margin-left: 80px;
-  font-size: 40px;
-  padding-top: 20px;
-}
-
-.primero > div {
   text-align: center;
-  color: #FFFFFF;
-  font-size: 20px;
+}
+
+.far.fa-handshake {
+  font-size: 60px;
+}
+
+.seccion1 {
   padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.seccion2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.seccion3 {
+  padding-top: 10px;
 }
 
 /* (2) */
@@ -569,27 +578,23 @@ height: 150px;
   border-bottom: 1px solid #FFFFFF;
 }
 
-.secundo > p {
+.secundo {
   color: #FFFFFF;
-  margin-left: 20px;
-  font-size: 40px;
-  padding-top: 32px;
-  padding-bottom: 22px;
+  text-align: center;
 }
 
-.secundo > div:first-of-type {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 20px;
-  padding-top: 30px;
+.sez1 {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.sez2 {
   font-size: 30px;
-  margin-right: 5px
+  padding-bottom: 20px;
 }
 
-.secundo:last-child {
-  color: #FFFFFF;
-  font-size: 20px;
-  text-align: center;
+.sez3 {
+  padding-top: 13px;
 }
 /* negative margin to make the icon move left */
 
@@ -605,17 +610,80 @@ height: 150px;
   width: 25%;
   height: 250px;
   float: left;
-  /* debug */
-  background-color: Navy;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
+
+.tercero {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.tercero h4 {
+  font-size: 13px;
+}
+
+.micro1 {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+.micro2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.micro3 {
+  padding-top: 20px;
+}
+
+/* negative vaule for the margin to make the hat go left */
+
+.tercero i {
+  margin-left: -26px;
+  color: #FFFFFF;
+}
+
+/* (4) */
 
 .cubo4 {
   width: 25%;
   height: 250px;
   float: right;
-  /* debug */
-  background-color: orange;
+  border-bottom: 1px solid #FFFFFF;
 }
+
+.cuarto {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.pequeno1 {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+.pequeno2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.pequeno3 {
+  padding-top: 20px;
+}
+
+/* negative values to make the "O" get closer to its sides */
+
+h3 .fab.fa-opera {
+  margin: 0px -25px 0px -25px;
+}
+
+/* Second line starts here */
+
+/* (5) */
 
 .cubo5 {
   width: 25%;
