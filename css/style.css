@@ -1180,8 +1180,30 @@ background-size: 80%;
   padding-bottom: 20px;
 }
 
-#social-media:last-child{
-  display: inline;
+/* SOCIAL MEDIA icons */
+
+.social-media li {
+  text-align: left;
+  list-style-type:none;
+  font-size: 20px;
+  line-height: 200%;
+  font-family: serif;
+}
+
+.social-media a {
+  color: #FFFFFF;
+}
+
+.social-media a:link {
+  text-decoration: none;
+}
+
+.social-media a:visited {
+  text-decoration: none;
+}
+
+#social {
+  padding-left: 17px;
 }
 
 /* lower section of footer */
@@ -1189,8 +1211,6 @@ background-size: 80%;
 .lower-footboxes {
   width: 100%;
   height: 300px;
-  /* debug */
-  background-color: purple;
 }
 
 /* .lower-footboxes has elements with float so we need a "clearfix" */
@@ -1203,63 +1223,75 @@ background-size: 80%;
 
 /* bosex in LOWER part fo footer */
 
+/* FOURTH ROW IN FOOTER */
+
 .foot5 {
   width: 100%;
   height: 50%;
-  /* debug */
-  background: #7FFFD4;
+  border-bottom: 2px solid #9baab8;
 }
 
 .foot5-text {
   text-align: center;
   padding-top: 90px;
 }
+
 .foot5-text > p {
   display: inline-block;
 }
+
+.foot5 li {
+  text-align: left;
+  list-style-type:none;
+  font-size: 20px;
+  line-height: 200%;
+  font-family: serif;
+}
+
+.foot5 a {
+  color: #FFFFFF;
+}
+
+.foot5 a:link {
+  text-decoration: none;
+}
+
+.foot5 a:visited {
+  text-decoration: none;
+}
+
+/* sixth ROW IN FOOTER */
 
 .foot6 {
   width: 100%;
   height: 50%;
   /* debug */
-  background: #000080;
+  background-color: pink;
 }
 
-.foot5-text1 {
-  width: 500px;
-  height: 100%;
-  float: left;
-  padding-top: 30px;
-  /* debug */
-  background-color: red;
-}
-
-.foot5-text2 {
-  width: 500px;
-  height: 100%;
-  float: right;
-  /* debug */
-  background-color: green;
-}
-
-.foot5-tex2-part1 {
+.double-container-footer {
   width: 50%;
   height: 100%;
   float: left;
-  text-align: right;
-  padding-top: 60px;
-  padding-right: 10px;
-  /* debug */
+  /*debug*/
   background-color: lime;
 }
 
-.foot5-tex2-part2 {
+.logo-footer {
   width: 50%;
-  height: 100%;
-  float: right;
-  text-align: left;
-  padding-top: 60px;
-  padding-left: 10px;
+  height: 80%;
+  float: left;
   /* debug */
-  background-color: grey;
+  background-image:url(../img/logo_gray.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.copirights {
+  width: 50%;
+  height: 10%;
+  /* debug */
+  background-color: yellow;
+
 }
