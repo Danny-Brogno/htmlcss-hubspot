@@ -1207,3 +1207,25 @@ background-size: 80%;
   /* debug */
   background-color: green;
 }
+
+.foot5-tex2-part1 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 10px;
+  /* debug */
+  background-color: lime;
+}
+
+.foot5-tex2-part2 {
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 10px;
+  /* debug */
+  background-color: grey;
+}
