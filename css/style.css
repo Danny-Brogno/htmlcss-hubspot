@@ -37,7 +37,7 @@ header {
 }
 
 .left-menu {
-  margin: 20px 0px 0px 0px;
+  margin:15px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   list-style-type:none;
 }
@@ -860,8 +860,6 @@ height: 150px;
   height: 950px;
   padding-top: 50px;
   padding-bottom: 50px;
-  /* debug */
-  /* background-color: lightgrey; */
 }
 
 .inside-chinese {
@@ -1050,4 +1048,162 @@ background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%;
+}
+
+/* end of chinese section */
+
+/* footer*/
+
+.foot-big {
+  width: 100%;
+  height: 950px;
+  background-color: #32495b;
+  padding-top: 50px;
+}
+
+.foot-small {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: cursive;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  /* debug */
+  background-color: darkblue;
+}
+
+.upper-footboxes {
+  width: 100%;
+  height: 600px;
+  /* debug */
+  background-color: orange;
+}
+
+/* .upper-footboxes has elements with float so we need a "clearfix" */
+
+.upper-footboxes {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* bosex in UPPER part of footer */
+
+.foot1 {
+  width: 20%;
+  height: 80%;
+  float: left;
+  /* debug */
+  background-color: red;
+}
+
+.foot1-text {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  /* debug */
+  background-color: #8B0000;
+}
+
+.foot2 {
+  width: 20%;
+  height: 80%;
+  float: left;
+  /* debug */
+  background-color: black;
+}
+
+.foot2-text {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  /* debug */
+  background-color: #2F4F4F;
+}
+
+.foot3 {
+  width: 20%;
+  height: 80%;
+  float: left;
+  /* debug */
+  background-color: #1E90FF;
+}
+
+.foot3-text {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  /* debug */
+  background-color: #00C957;
+}
+
+.foot4 {
+  width: 30%;
+  height: 100%;
+  float: left;
+  /* debug */
+  background-color: #228B22;
+}
+
+.foot4-text {
+  width: 100%;
+  height: 72px;
+  text-align: center;
+  /* debug */
+  background-color: #191970	;
+}
+
+/* lower section of footer */
+
+.lower-footboxes {
+  width: 100%;
+  height: 300px;
+  /* debug */
+  background-color: purple;
+}
+
+/* .lower-footboxes has elements with float so we need a "clearfix" */
+
+.lower-footboxes {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* bosex in LOWER part fo footer */
+
+.foot5 {
+  width: 100%;
+  height: 50%;
+  /* debug */
+  background: #7FFFD4;
+}
+
+.foot5-text {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.foot6 {
+  width: 100%;
+  height: 50%;
+  /* debug */
+  background: #000080;
+}
+
+.foot5-text1 {
+  width: 500px;
+  height: 100%;
+  float: left;
+  padding-top: 30px;
+  /* debug */
+  background-color: red;
+}
+
+.foot5-text2 {
+  width: 500px;
+  height: 100%;
+  float: right;
+  /* debug */
+  background-color: green;
 }
