@@ -328,6 +328,7 @@ a > .element-right,i {
   font-size: 30px;
 }
 
+
 .horizontal-rule {
   border-top: 2px solid #899397;
   width: 430px;
@@ -894,12 +895,17 @@ height: 150px;
   color: #33475b;
 }
 
+.topleft-chinese2 h1 {
+  font-size: 60px;
+}
+
 .topleft-chinese3 {
   width: 100%;
   height: 70%;
   line-height: 200%;
   text-align: center;
   color: #000000;
+  font-family: none;
 }
 
 .topleft-chinese3 span {
@@ -923,20 +929,64 @@ height: 150px;
   height: 50%;
   float: left;
   text-align: center;
-  background-color: #00A36C;
 }
 
-.topleft-chinese2 h1 {
-  font-size: 60px;
+/* brands top right chinese 2 (FIRST LINE) */
+
+.brand {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.atlassian {
+  background-image: url(../img/atlassian.png);
+}
+
+.doordash {
+  background-image: url(../img/doordash.png);
+}
+
+.crowd {
+  background-image: url(../img/g2crowd-logo@2x.png);
+  background-size: 80%;
+}
+
+.purple {
+  background-image: url(../img/purple-logo@2x.png);
+  background-size: 80%;
+}
+
+/* second line of brands */
 
 .topright-chinese3 {
   width: 100%;
   height: 50%;
   float: left;
   text-align: center;
-  /* debug */
-  background-color: gold;
+}
+
+/* brands second line */
+
+.subaru {
+background-image: url(../img/subaru.png);
+}
+
+.wistia {
+background-image: url(../img/wistia.png);
+background-size: 80%;
+}
+
+.classpass {
+background-image: url(../img/classpass.png);
+}
+
+.vmware {
+background-image: url(../img/vmware.png);
+background-size: 80%;
 }
 
 /* bottom left boxes */
@@ -951,7 +1001,7 @@ height: 150px;
 .bottomleft-chinese2 {
   width: 100%;
   height: 30%;
-  text-align: center;
+  text-align: left;
 }
 
 .bottomleft-chinese2:first-child {
@@ -962,25 +1012,32 @@ height: 150px;
 .bottomleft-chinese3 {
   width: 100%;
   height: 30%;
-  /* debug */
-  text-align: center;
-  background-color: #800000;
+  text-align: left;
+  font-family: none;
+  font-weight: lighter;
 }
 
 .bottomleft-chinese4 {
   width: 100%;
   height: 30%;
-  /* debug */
   text-align: center;
-  background-color: #E5E4E2;
+}
+
+/* orange LINK/BUTTON here */
+
+.orange-link5 {
+  list-style-type:none;
+  float: left;
+  padding-left: 0px;
 }
 
 .bottomleft-chinese5 {
   width: 100%;
   height: 10%;
-  /* debug */
-  text-align: center;
-  background-color: #0FFF50;
+  text-align: left;
+  font-size: 15px;
+  font-family: none;
+
 }
 
 /* bottom right box */
