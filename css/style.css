@@ -1068,15 +1068,11 @@ background-size: 80%;
   font-family: cursive;
   color: #FFFFFF;
   box-sizing: border-box;
-  /* debug */
-  background-color: darkblue;
 }
 
 .upper-footboxes {
   width: 100%;
   height: 600px;
-  /* debug */
-  background-color: orange;
 }
 
 /* .upper-footboxes has elements with float so we need a "clearfix" */
@@ -1089,68 +1085,103 @@ background-size: 80%;
 
 /* bosex in UPPER part of footer */
 
+/* FIRST ROW IN FOOTER */
+
 .foot1 {
   width: 20%;
   height: 80%;
   float: left;
-  /* debug */
-  background-color: red;
 }
 
 .foot1-text {
   width: 100%;
   height: 15%;
-  text-align: center;
-  /* debug */
-  background-color: #8B0000;
 }
+
+.links-row1 {
+  padding-left: 0px;
+}
+
+.links-row1 li {
+  text-align: left;
+  list-style-type:none;
+  font-size: 20px;
+  line-height: 200%;
+  font-family: serif;
+}
+
+.links-row1 a {
+  color: #FFFFFF;
+}
+
+.links-row1 a:link {
+  text-decoration: none;
+}
+
+.links-row1 a:visited {
+  text-decoration: none;
+}
+
+/* SECOND ROW IN FOOTER */
 
 .foot2 {
   width: 20%;
   height: 80%;
   float: left;
-  /* debug */
-  background-color: black;
 }
 
 .foot2-text {
   width: 100%;
   height: 15%;
-  text-align: center;
-  /* debug */
-  background-color: #2F4F4F;
+  text-align: left;
 }
+
+/* THIRD ROW IN FOOTER */
 
 .foot3 {
   width: 20%;
   height: 80%;
   float: left;
-  /* debug */
-  background-color: #1E90FF;
 }
 
 .foot3-text {
   width: 100%;
   height: 15%;
-  text-align: center;
-  /* debug */
-  background-color: #00C957;
+  text-align: left;
 }
+
+/* FOURTH ROW IN FOOTER */
 
 .foot4 {
   width: 30%;
   height: 100%;
   float: left;
-  /* debug */
-  background-color: #228B22;
 }
 
 .foot4-text {
   width: 100%;
   height: 72px;
+  text-align: left;
+}
+
+.footerlink-button {
+  width: 220px;
+  height: 60px;
+  background-color: #dadee0;
+  border: 1px solid transparent;
   text-align: center;
-  /* debug */
-  background-color: #191970	;
+  font-size: 80%;
+  color: #000000;
+  border-radius: 10px;
+}
+
+#line-button-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#social-media:last-child{
+  display: inline;
 }
 
 /* lower section of footer */
@@ -1182,6 +1213,9 @@ background-size: 80%;
 .foot5-text {
   text-align: center;
   padding-top: 90px;
+}
+.foot5-text > p {
+  display: inline-block;
 }
 
 .foot6 {
