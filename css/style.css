@@ -1264,34 +1264,33 @@ background-size: 80%;
 
 .foot6 {
   width: 100%;
-  height: 50%;
-  /* debug */
-  background-color: pink;
+  min-height: 150px;
 }
 
-.double-container-footer {
-  width: 50%;
-  height: 100%;
-  float: left;
-  /*debug*/
-  background-color: lime;
+.left-section-foot6 {
+  min-height: 150px;
+  min-width: 20%;
+  float:left;
 }
 
-.logo-footer {
-  width: 50%;
-  height: 80%;
-  float: left;
-  /* debug */
-  background-image:url(../img/logo_gray.svg);
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 60%;
+#logo-foot9 {
+  width: 100px;
+  height: 100px;
+  padding-top: 70px;
 }
 
-.copirights {
-  width: 50%;
-  height: 10%;
-  /* debug */
-  background-color: yellow;
+#text-under-logo {
+font-size: 15px;
+font-family: sans-serif;
+font-weight: bold;
+}
 
+.right-section-foot6 {
+  min-height: 150px;
+  min-width: 20%;
+  float: right;
+}
+
+.right-section-foot6 {
+  padding-top: 70px;
 }
