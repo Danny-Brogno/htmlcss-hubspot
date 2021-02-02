@@ -1285,6 +1285,8 @@ font-family: sans-serif;
 font-weight: bold;
 }
 
+/* where it says "LEGAL STUFF AND PRIVACY POLICY" */
+
 .right-section-foot6 {
   min-height: 150px;
   min-width: 20%;
@@ -1293,4 +1295,16 @@ font-weight: bold;
 
 .right-section-foot6 {
   padding-top: 70px;
+}
+
+.right-section-foot6 a {
+  color: #FFFFFF;
+}
+
+.right-section-foot6 a:link {
+  text-decoration: none;
+}
+
+.right-section-foot6 a:visited {
+  text-decoration: none;
 }
