@@ -95,6 +95,7 @@ header {
   background-color: #FFFFFF;
   width: 100vw;
   height: 100px;
+  line-height: 100px;
 }
 
 .white-container {
