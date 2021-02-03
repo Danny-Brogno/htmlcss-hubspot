@@ -67,7 +67,8 @@ header {
 /* header part 2 */
 
 .right-menu{
-  float: right;
+  /* TOGLIENDO QUESTO  FLOAT IL FLOAT DI SOTTO FUNZIONA */
+  float: right
   padding: 0px 0px 0px 0px;
 }
 
