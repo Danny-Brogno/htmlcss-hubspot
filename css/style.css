@@ -15,15 +15,14 @@ header {
 
 .contenitore1 {
   background-color: #f4f9fd;
-  width: 100vw;
-  height: 100px;;
+  height: 100px;
   border-bottom: 1px solid #32495b;
+  line-height: 100px;
 }
 
 .gray-container {
   width: 80%;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
 .gray-container::after {
@@ -38,7 +37,6 @@ header {
 }
 
 .left-menu {
-  margin:15px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   list-style-type:none;
 }
@@ -70,7 +68,6 @@ header {
 
 .right-menu{
   float: right;
-  margin: 20px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
 
@@ -91,7 +88,8 @@ header {
   color: #FFFFFF;
   border-radius: 10px;
 }
-/* header part 3 */
+
+/* SECOND LINE OF THE HEADER (ALWAYS IN POSITION FIXED) */
 
 .contenitore2 {
   background-color: #FFFFFF;
@@ -101,19 +99,23 @@ header {
 
 .white-container {
   width: 80%;
+  height: 100px;
   margin: 0 auto;
-  padding-top: 20px;
+}
+
+.white-container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #logo-links {
   list-style-type:none;
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
 }
 
-#logo-links li {
+#logo-links {
   display: inline-block;
-  padding: 10px;
 }
 
 a > .element-right,i {
@@ -136,15 +138,15 @@ a > .element-right,i {
   text-decoration: none;
 }
 
+.space1 {
+  padding-right: 15px;
+}
+
 .floating {
   float: right;
 }
 
-.floating::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/*THIS MAKES THE NAV STAY IN POSITION FIXED */
 
 .bothlines {
   position: fixed;
@@ -171,10 +173,14 @@ a > .element-right,i {
   margin: 0 auto;
 }
 
-.contenitore3 > h1 {
+.contenitore3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#heading-jumotron {
   padding-top: 50px;
-  font-size: 70px;
-  color: black;
 }
 
 .headtext {
@@ -190,20 +196,23 @@ a > .element-right,i {
   float: left
 }
 
-.orangelink::after {
-  content: "";
-  display: table;
-  clear: both;
+.big-oranges {
+  padding: 20px 50px 20px 50px;
 }
 
-.orange3 {
+
+.orange-big {
+  padding: 30px 75px 30px 75px;
+}
+
+/* .orange3 {
   background-color: #fe775a;
   border: 1px solid transparent;
   padding: 30px 150px 30px 0px;
   color: #FFFFFF;
   border-radius: 10px;
   text-align: center;
-}
+} */
 
 /* this will apply the rule to all the links in the page */
 
@@ -282,7 +291,7 @@ a:active {
   line-height: 200%;
 }
 
-/* Other image (BOOK))*/
+/* Other image (BOOK)--------------------------------------------------------*/
 
 .free-hubspot {
   width: 100%;
@@ -312,8 +321,6 @@ a:active {
   width: 70%;
   height: 100%;
   float: right;
-  /* debug */
-  background-color: green;
 }
 
 .free-hubspot::after {
@@ -350,7 +357,7 @@ a:active {
 
 .horizontal-rule {
   border-top: 2px solid #899397;
-  width: 330px;
+  width: 430px;
   margin: -30px 0px 0px 500px;
 }
 
@@ -1038,6 +1045,11 @@ background-size: 80%;
   width: 100%;
   height: 30%;
   text-align: center;
+}
+
+.orangelink1 {
+  width: 300px;
+  float: left
 }
 
 /* orange LINK/BUTTON here */
